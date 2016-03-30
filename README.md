@@ -7,6 +7,7 @@
 1. Controllers
 1. Services
 1. Directives
+1. Routing
 1. Events
 1. Filters
 1. Forms
@@ -47,11 +48,16 @@ AngularJS
 * Purpose
 * Syntax
 * Injection
+* Service vs factory
 
 ## Directives
 * Purpose
 * Syntax
 * Isolate scope
+
+## Routing
+* Set-up
+* Usage
 
 ## Events
 * $on
