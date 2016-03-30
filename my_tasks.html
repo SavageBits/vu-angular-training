@@ -1,0 +1,37 @@
+<!doctype html>
+<html ng-app='app'>
+  <head>
+    <title>Intro to AngularJS at VU</title>
+    
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    
+    <!-- modules -->
+    <script src="app/src/app.module.js"></script>
+    <script src="app/src/users/users.module.js"></script>
+    <script src="app/src/loans/loans.module.js"></script>
+    
+    <!-- controllers -->
+    <script src="app/src/users/usersController.js"></script>    
+  </head>
+  <body ng-controller="UsersController">
+    <h1>Welcome, {{ name }}</h1>    
+    
+    <a href="index.html">account details</a> | <a href="my_loan.html">my loan</a> | <a href="my_tasks.html">my tasks</a>
+    
+    <hr>
+    
+    <h2>my tasks</h2>
+    
+    <div>Title: {{ title }}</div>
+
+    <hr>
+
+    <div>
+      <div>Address:</div>
+      <div>1 Street Town</div>
+      <div>Columbia, MO</div>
+    </div>
+    
+  </body>
+</html>
