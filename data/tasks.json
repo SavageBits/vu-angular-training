@@ -1,0 +1,14 @@
+[
+    {
+      "taskId": "123",
+      "taskName": "Complete appraisal"
+    },
+    {
+      "taskId": "134",
+      "taskName": "Get homeowner's insurance"
+    },
+    {
+      "taskId": "119",
+      "taskName": "Sign disclosures"
+    }
+]
